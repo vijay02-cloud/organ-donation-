@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    line-height: 1.6;
+    padding: 0;
+    background-color: #f1ffe7;
+    color: #333;
+}
+header {
+    background-color: rgb(9, 74, 9);
+    padding: 10px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+h1 {
+    text-align: center; /* Center the title horizontally */
+    margin-top: 20px; /* Optional margin for spacing */
+}
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+label {
+    font-weight: bold;
+}
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+button:hover {
+    background-color: #45a049;
+}
+.highlighted-button {
+    background-color: #ff5722; /* Highlight color */
+}
+.highlighted-button:hover {
+    background-color: #e64a19; /* Highlight hover color */
+}
+
+.redirectsuccesspage {
+    padding: 10px;
+    color: white;
+    font-size: 10pt;
+    border-radius: 10px;
+    background-color: rgb(120, 200, 0);
+    text-decoration: none;
+}
+
+.redirectsuccesspage:hover {
+    background-color: rgba(120, 200, 0, 0.9);
+}

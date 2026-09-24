@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    line-height: 1.6;
+    padding: 0;
+    background-color: #f1ffe7;
+    color: #10100f;
+}
+header {
+    background-color: rgb(9, 74, 9);
+    padding: 10px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 5px 10px;
+}
+nav a {
+    color: rgb(14, 14, 14);
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(191, 16, 10, 0.1);
+    border-radius: 8px;
+}
+h1 {
+    color: white;
+    text-align: center; /* Center the title horizontally */
+    margin-top: 10px; /* Optional margin for spacing */
+}
+label {
+    font-weight: bold;
+}
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+button:hover {
+    background-color: #45a049;
+}
+.section {
+    margin: 20px 0;
+    color: black;
+}
+
+.section h1 {
+    color: black
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background:#45a049;
+    color: white;
+    margin-top: 10px;
+}
